@@ -12,14 +12,48 @@
 	import poster9 from '$images/events/poster9.webp';
 	import poster10 from '$images/events/poster10.webp';
 	import poster11 from '$images/events/poster11.webp';
-
 	const events = [
 		{
-			name: 'National Youth Day',
-			date: '12-1-2023',
+			name: 'The Indian Story - Harish Hande',
+			date: '29-6-2022',
 			description:
-				'The National Youth Day or Rashtriya Yuva Divas is celebrated every year on January 12 to commemorate the birth anniversary of Swami Vivekananda, one of the greatest philosophers and spiritual leaders. Swami Vivekananda was born in Kolkata on January 12, 1863.',
-			src: poster1
+				'Mr. Ramesh G is the Managing director and CEO of Way2Grow, an ag-tech startup towards hydroponics farming. Way2Grow is a sustainable hydroponics business, honored to be as one of the top 10 agritech startups in India by Silicon India.',
+			src: poster10
+		},
+		{
+			name: 'The Indian Story - Harish Hande',
+			date: '23-7-2022',
+			description:
+				'Harish Hande, one among the most respected Social Entrepreneurs across the country. He Founded Selco in 1995, in the past few decades plus of operation, Selco has impacted more than a million lives in rural India.Busting the myth that the poor of this country can’t afford and maintain sustainable technologies.',
+			src: poster9
+		},
+		{
+			name: 'The Indian Story - Ronak Sutaria',
+			date: '13-8-2022',
+			description:
+				'Mr. Ronak Sutaria is the Founder & CEO of Respirer living Sciences.Respirer Living Sciences is a climate science focused startup that builds low-cost and low-powered, sensor-based air quality and industrial emissions monitoring devices & ML based analytics and uses IoT and big data to provide solutions for industries, governments & communities.',
+			src: poster8
+		},
+		{
+			name: 'National Education Day',
+			date: '11-11-2022',
+			description:
+				'A seminar was arranged on the occasion “National Education Day” to celebrate the birth anniversary of India’s first Education Minister, Maulana Abul Kalam Azad on 11/11/2022 at 10:00AM. Almost 250 students and three faculty members were present (at the hall no. H05) during the presentation on the topic by Dr Tapas Sil (Dean-Design Innovation and Incubation of IIITDM Kancheepuram).',
+			src: poster7
+		},
+		{
+			name: 'IIC - Hackathon',
+			date: '19-11-2022',
+			description:
+				'The ideathon was organized on the theme of promoting sustainable development goals based on product development. The event saw the participation of 34 teams across the years with a total of 101 participants.',
+			src: poster11
+		},
+		{
+			name: 'National Energy Conservation Day',
+			date: '14-12-2022',
+			description:
+				'National Energy Conservation Day is celebrated on December 14 in India to raise awareness among people about global warming, climate change and promote ways of saving energy resources. It is indeed important to use energy wisely in order to enhance energy efficiency',
+			src: poster3
 		},
 		{
 			name: 'National Pollution Control Day',
@@ -29,12 +63,20 @@
 			src: poster2
 		},
 		{
-			name: 'National Energy Conservation Day',
-			date: '14-12-2022',
+			name: 'Influx of AI generative Tools in the field of Entreprenuership',
+			date: '6-1-2023',
 			description:
-				'National Energy Conservation Day is celebrated on December 14 in India to raise awareness among people about global warming, climate change and promote ways of saving energy resources. It is indeed important to use energy wisely in order to enhance energy efficiency',
-			src: poster3
+				'Mr. Karthikeyan A K, Chief Executive Officer (CEO) at MaDeIT Innovation Foundation, an incubator at IIITDM Kancheepuram. During the talk, the road map of startup opportunities was discussed',
+			src: poster6
 		},
+		{
+			name: 'National Youth Day',
+			date: '12-1-2023',
+			description:
+				'The National Youth Day or Rashtriya Yuva Divas is celebrated every year on January 12 to commemorate the birth anniversary of Swami Vivekananda, one of the greatest philosophers and spiritual leaders. Swami Vivekananda was born in Kolkata on January 12, 1863.',
+			src: poster1
+		},
+
 		{
 			name: 'National StartUp Day',
 			date: '16-1-2023',
@@ -48,48 +90,6 @@
 			description:
 				"A field trip for the first year and second year UG students was organized as part of Institution's Innovation Council (IIC) at TANSAM (Tamilnadu smart and advanced manufacturing centre). A total of 21 students and one faculty member participated for this field trip. The field trip gave very good exposure to students about industry practice.",
 			src: poster5
-		},
-		{
-			name: 'Influx of AI generative Tools in the field of Entreprenuership',
-			date: '6-1-2023',
-			description:
-				'Mr. Karthikeyan A K, Chief Executive Officer (CEO) at MaDeIT Innovation Foundation, an incubator at IIITDM Kancheepuram. During the talk, the road map of startup opportunities was discussed',
-			src: poster6
-		},
-		{
-			name: 'National Education Day',
-			date: '11-11-2022',
-			description:
-				'A seminar was arranged on the occasion “National Education Day” to celebrate the birth anniversary of India’s first Education Minister, Maulana Abul Kalam Azad on 11/11/2022 at 10:00AM. Almost 250 students and three faculty members were present (at the hall no. H05) during the presentation on the topic by Dr Tapas Sil (Dean-Design Innovation and Incubation of IIITDM Kancheepuram).',
-			src: poster7
-		},
-		{
-			name: 'The Indian Story - Ronak Sutaria',
-			date: '13-8-2022',
-			description:
-				'Mr. Ronak Sutaria is the Founder & CEO of Respirer living Sciences.Respirer Living Sciences is a climate science focused startup that builds low-cost and low-powered, sensor-based air quality and industrial emissions monitoring devices & ML based analytics and uses IoT and big data to provide solutions for industries, governments & communities.',
-			src: poster8
-		},
-		{
-			name: 'The Indian Story - Harish Hande',
-			date: '23-7-2022',
-			description:
-				'Harish Hande, one among the most respected Social Entrepreneurs across the country. He Founded Selco in 1995, in the past few decades plus of operation, Selco has impacted more than a million lives in rural India.Busting the myth that the poor of this country can’t afford and maintain sustainable technologies.',
-			src: poster9
-		},
-		{
-			name: 'The Indian Story - Harish Hande',
-			date: '23-7-2022',
-			description:
-				'Harish Hande, one among the most respected Social Entrepreneurs across the country. He Founded Selco in 1995, in the past few decades plus of operation, Selco has impacted more than a million lives in rural India.Busting the myth that the poor of this country can’t afford and maintain sustainable technologies.',
-			src: poster10
-		},
-		{
-			name: 'IIC - Hackathon',
-			date: '19-11-2022',
-			description:
-				'The ideathon was organized on the theme of promoting sustainable development goals based on product development. The event saw the participation of 34 teams across the years with a total of 101 participants.',
-			src: poster11
 		}
 	];
 </script>
