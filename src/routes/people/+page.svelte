@@ -31,20 +31,21 @@
 	import cs21b1023 from '$images/people/cs21b1023.webp';
 	import me21b2004 from '$images/people/me21b2004.webp';
 	const faculties = [
-		{ name: 'Dr. Jayachandra Bingi', src: bingi, designation: 'Assistant Professor,IIITDM' },
-		{ name: 'Dr. K P Pradhan', src: kpp, designation: 'Assistant Professor,IIITDM' },
-		{ name: 'Dr. Karthikeyan A K', src: ceo, designation: 'CEO,MaDeIT' },
-		{ name: 'Dr. Kathick C', src: karthikc, designation: 'Assistant Professor,IIITDM' },
-		{ name: 'Dr. Uttam Pal Mrinal', src: uttam, designation: 'Assistant Professor,IIITDM' },
-		{ name: 'Dr. Rohini P', src: rohinip, designation: 'Assistant Professor,IIITDM' },
-		{ name: 'Dr. Nachiketa Mishra', src: nmishra, designation: 'Assistant Professor,IIITDM' },
-		{ name: 'Dr. Ram Prasad Padhy', src: rampadhy, designation: 'Assistant Professor,IIITDM' },
-		{ name: 'Dr. VSS Iyer', src: vssiyer, designation: 'Assistant Professor,IIITDM' },
-		{ name: 'Dr. Sudhir Varadarajan', src: sudir, designation: 'Associate Professor,IIITDM' },
+
 		{ name: 'Prof. M Sreekumar', src: MSK, designation: 'Professor,IIITDM' },
 		{ name: 'Dr. Naveen Kumar', src: NKUMAR, designation: 'Associate Professor,IIITDM' },
+		{ name: 'Dr. Sudhir Varadarajan', src: sudir, designation: 'Associate Professor,IIITDM' },
 		{ name: 'Dr. Priyanka Kokil', src: priyanka, designation: 'Associate Professor,IIITDM' },
+		{ name: 'Dr. Nachiketa Mishra', src: nmishra, designation: 'Assistant Professor,IIITDM' },
+		{ name: 'Dr. K P Pradhan', src: kpp, designation: 'Assistant Professor,IIITDM' },
+		{ name: 'Dr. Jayachandra Bingi', src: bingi, designation: 'Assistant Professor,IIITDM' },
+		{ name: 'Dr. Kathick C', src: karthikc, designation: 'Assistant Professor,IIITDM' },
+		{ name: 'Dr. Ram Prasad Padhy', src: rampadhy, designation: 'Assistant Professor,IIITDM' },
+		{ name: 'Dr. Uttam Pal Mrinal', src: uttam, designation: 'Assistant Professor,IIITDM' },
+		{ name: 'Dr. Rohini P', src: rohinip, designation: 'Assistant Professor,IIITDM' },
 		{ name: 'Dr. Senthilkumaran K', src: SKUMARAN, designation: 'Assistant Professor,IIITDM' },
+		{ name: 'Dr. VSS Iyer', src: vssiyer, designation: 'Assistant Professor,IIITDM' },
+		{ name: 'Dr. Karthikeyan A K', src: ceo, designation: 'CEO,MaDeIT' },
 		{ name: 'Dr. Gokul Rajasekaran', src: gokulrajasekaran, designation: 'Adjunct Faculty,IIITDM' }
 	];
 	const students = [
